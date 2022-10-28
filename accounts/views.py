@@ -4,7 +4,7 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.shortcuts import redirect, render
 from django.views.decorators.http import require_http_methods, require_POST
 from django.contrib.auth import get_user_model
-from .forms import CustomUserChangeForm, CustomUserCreationForm
+from .forms import CustomUserCreationForm
 
 
 # Create your views here.
